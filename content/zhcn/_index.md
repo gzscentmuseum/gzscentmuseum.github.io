@@ -6,12 +6,12 @@ banner:
 # Features
 features:
   - title: "展览"
-    image: "/images/service-1.png"
+    image: "/images/service-exhibition.png"
     content: |
       本展览旨在全面展示香水香料的悠久历史、制作工艺、文化意义及其在现代社会的广泛应用。通过多元化的展示，我们力求为观众呈现一个既真实又富有创意的香水香料世界。<br><br>
       在这里，观众不仅可以近距离观赏到珍贵的香料标本、经典的香水瓶设计，还能亲身体验香水调配的乐趣，深入了解香水背后的故事与文化。
   - title: "关于"
-    image: "/images/service-2.png"
+    image: "/images/service-about.png"
     content: |
       香水与香料，自古以来便是人类文明中不可或缺的一部分，它们不仅承载着调香师的艺术智慧，更蕴含着丰富的历史文化和地域特色。广州市沙面香水香料博物馆，作为连接过去与未来的桥梁，致力于通过精心策划的基本陈列展览，引领每一位踏入这里的观众，踏上一场穿越时空的香氛之旅。<br><br>
 
