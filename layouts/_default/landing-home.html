@@ -7,7 +7,7 @@
           <div class="swiper-wrapper">
             {{ range .images }}
               <div class="swiper-slide">
-                {{ partial "image" (dict "Src" . "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto " ) }}
+                {{ partial "image" (dict "Src" . "Alt" "Banner image" "Loading" "eager" "Class" "max-w-full h-auto" ) }}
               </div>
             {{ end }}
           </div>

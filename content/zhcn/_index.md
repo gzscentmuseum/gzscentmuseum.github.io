@@ -3,8 +3,8 @@ layout: "landing-home"
 # Banner
 banner:
   images:
-    - "/images/banner-slider-1.jpg"
-    - "/images/banner-slider-1.jpg"
+    - "/images/slider-1.jpg"
+    - "/images/slider-3.jpg"
 
 # Features
 features:
