@@ -2,7 +2,9 @@
 layout: "landing-home"
 # Banner
 banner:
-  image: "/images/banner.png"
+  images:
+    - "/images/banner-slider-1.jpg"
+    - "/images/banner-slider-1.jpg"
 
 # Features
 features:

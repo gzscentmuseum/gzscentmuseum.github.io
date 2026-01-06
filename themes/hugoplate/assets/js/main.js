@@ -2,6 +2,22 @@
 (function () {
   "use strict";
 
+  // home bannerSlider
+  // ----------------------------------------
+  new Swiper(".banner-slider", {
+    autoHeight: true,
+    // spaceBetween: 24,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
   // Testimonial Slider
   // ----------------------------------------
   new Swiper(".testimonial-slider", {
