@@ -10,4 +10,4 @@ draft: false
 
 Address: 2/F, No. 4, Shamian 2nd Street, Liwan District, Guangzhou<br>
 
-Phone: 13342866411
+Email: admin@gzscentmuseum.com
