@@ -1,8 +1,8 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section-sm">
-      <div class="container">
+    <section class="py-0 section-sm">
+      <div class="container" style="padding-left:0;padding-right:0;">
         <div class="swiper banner-slider">
           <div class="swiper-wrapper">
             {{ range .images }}
@@ -22,13 +22,13 @@
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
-      <div class="container">
+    <section class="py-0 section-sm">
+      <div class="container" style="background-color: {{ .backgroundColor | safeCSS }};">
         <div class="row items-center justify-between">
           <div
-            class="mb:md-0 {{ if not (modBool $i 2) }}
+            class="px-0 mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
-            {{ end }} md:col-5 mb-6">
+            {{ end }} md:col-5 mb-6" style="margin-bottom:0;">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
